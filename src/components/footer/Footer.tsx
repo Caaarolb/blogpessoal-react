@@ -6,8 +6,8 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center bg-indigo-900 text-white">
-                <div className="container flex flex-col items-center py-4">
+            <div className="flex justify-center bg-transparent text-black fixed bottom-0 w-full">
+                <div className="container flex flex-col items-center py-1">
                     <p className='text-xl font-bold'>
                             Blog Pessoal da Jeisa Boaventura | Copyright: {data}
                         </p>

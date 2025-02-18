@@ -1,10 +1,11 @@
 function Home() {
     return (
-        <div className="flex justify-center bg-indigo-900">
-            <div className="container grid grid-cols-2 text-white">
+        <div className="h-screen w-screen bg-cover bg-center fixed top-0 left-0" 
+            style={{ backgroundImage: "url('/telefone-samsung-y2k-e-baby-g-shock-iiign6yucuntb4do.webp')"}}>
+            <div className="container grid grid-cols-2 text-black">
                 <div className="flex flex-col items-center justify-center gap-4 py-4">
-                    <h2 className="text-5xl font-bold">
-                        Seja Bem-Vindo!
+                    <h2 className="text-5xl font-Arial">
+                        Seja Bem-Vindo(a)!
                     </h2>
                     <p className="text-xl">
                         Expresse aqui seus pensamentos e
@@ -12,23 +13,24 @@ function Home() {
                     </p>
 
                     <div className="flex justify-around gap-4">
-                        <div className="rounded border-white border-solid border-2 py-2 px-4 text-white">
+                        <div className="rounded border-black border-solid border-2 py-2 px-4 text-black">
                             Nova Postagem
                         </div>
                     </div>
 
                 </div>
  
-                <div className="flex justify-center">
+                <div className="flex left-10 mt-100">
                     <img
-                        src="https://i.imgur.com/VpwApCU.png"
+                        src="pngwing.com.png"
                         alt="Imagem da Página Home"
-                        className="w-2/3"
+                        className="scale-"
                     />
                 </div>
             </div>
         </div>
     )
+    
 }
  
 export default Home
